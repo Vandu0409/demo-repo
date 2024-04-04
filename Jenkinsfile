@@ -10,7 +10,7 @@ pipeline {
 	stages {
            stage('stage-1') {
 		steps {
-									echo "executing in ${ENV} environment"
+			echo "executing in ${ENV} environment"
 							}
 			}
 			stage('Stage-2') {
