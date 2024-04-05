@@ -14,7 +14,7 @@ pipeline {
 							}
 			}
 			stage('Stage-2') {
-							steps {
+					steps {
 							echo "Executing ${TEST} on checkout code"
 						}
 			}
